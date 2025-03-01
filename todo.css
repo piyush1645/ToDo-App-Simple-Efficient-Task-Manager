@@ -1,4 +1,4 @@
-/* General styling for the body */
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -12,14 +12,13 @@ body {
     color: #fff;
 }
 
-/* Heading styling */
+
 h1 {
     font-size: 40px;
     margin-bottom: 20px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-/* Input field styling */
 input {
     width: 300px;
     padding: 15px;
@@ -31,13 +30,10 @@ input {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
 }
-
-/* Change input style on focus */
 input:focus {
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
 }
 
-/* Button styling */
 button {
     margin-top: 10px;
     padding: 10px 20px;
@@ -50,13 +46,12 @@ button {
     transition: transform 0.3s, background-color 0.3s;
 }
 
-/* Button hover effect */
+
 button:hover {
     background-color: #ff4c4c;
     transform: scale(1.05);
 }
 
-/* Task list styling */
 ul {
     list-style-type: none;
     padding: 0;
@@ -64,7 +59,6 @@ ul {
     margin-top: 30px;
 }
 
-/* Individual task item styling */
 li {
     background-color:white;
     color: black;
@@ -89,7 +83,6 @@ li:hover {
     margin-right: 20px;
 }
 
-/* Delete button styling */
 li button {
     background-color: #ff4757;
     color: white;
@@ -101,13 +94,12 @@ li button {
     transition: background-color 0.3s, transform 0.3s;
 }
 
-/* Hover effect for delete button */
+
 li button:hover {
     background-color: #ff3d47;
     transform: scale(1.1);
 }
 
-/* Strikethrough completed task */
 li.completed {
     text-decoration: line-through;
     color: #888;
