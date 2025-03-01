@@ -1,0 +1,168 @@
+/* General styling for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #6b7fd9, #9b59b6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Input field styling */
+input {
+    width: 300px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    margin-right: 10px;
+    outline: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+/* Change input style on focus */
+input:focus {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+/* Button styling */
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #ff4c4c;
+    transform: scale(1.05);
+}
+
+/* Task list styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 350px;
+    margin-top: 30px;
+}
+
+/* Individual task item styling */
+li {
+    background-color:white;
+    color: black;
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover effect for task items */
+li:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: translateY(-5px);
+}
+.text{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Delete button styling */
+li button {
+    background-color: #ff4757;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover effect for delete button */
+li button:hover {
+    background-color: #ff3d47;
+    transform: scale(1.1);
+}
+
+/* Strikethrough completed task */
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .add_tast{
+        width: 100%;
+        padding: 12px;
+    }
+
+    ul {
+        width: 100%;
+    }
+
+    li {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    input {
+        padding: 12px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    li {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    li button {
+        padding: 5px 8px;
+    }
+}
