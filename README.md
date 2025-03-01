@@ -50,8 +50,8 @@ Open `http://localhost:3000` (or the port specified) in your browser.
 4. **Deleting a Task**: Click the trash can icon next to a task to delete it.
 
 ## Screenshots
-![Screenshot1](Screenshots/Screenshot1.png)
-![Screenshot2](Screenshots/Screenshot2.png)
+![Screenshot1](https://github.com/piyush1645/ToDo-App-Simple-Efficient-Task-Manager/blob/e2b25fec2047ef27df0d2077f6234da209d97760/screenshots/Screenshot1.png)
+![Screenshot2](https://github.com/piyush1645/ToDo-App-Simple-Efficient-Task-Manager/blob/e2b25fec2047ef27df0d2077f6234da209d97760/screenshots/Screenshot2.png)
 
 ## Contributing
 
