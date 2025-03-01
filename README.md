@@ -50,8 +50,8 @@ Open `http://localhost:3000` (or the port specified) in your browser.
 4. **Deleting a Task**: Click the trash can icon next to a task to delete it.
 
 ## Screenshots
-![Screenshot 1](Screenshots/Screenshot1.png)
-![Screenshot 2](Screenshots/Screenshot2.png)
+![Screenshot1](Screenshots/Screenshot1.png)
+![Screenshot2](Screenshots/Screenshot2.png)
 
 ## Contributing
 
